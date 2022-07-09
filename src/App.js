@@ -97,12 +97,12 @@ export default function App() {
             await window.contract.nft_mint({
 
               
-                token_id: `${window.accountId}-Near-Spring-token`,
+                token_id: `${window.accountId}-Near-showcode-nft`,
                 metadata: {
-                  title: "NEAR SPRING NFT",
-                  description: "NEAR Spring Challenge 3 NFT :)",
+                  title: "NEAR SHOWCODE NFT",
+                  description: "Near showcode cat nft",
                   media:
-                    "https://nftnewspro.com/wp-content/uploads/2022/03/Disaster-Girl.jpg",
+                    "https://bafybeibnrhpoitqkinikhyunzyi2pwj4d5ezqqwmziif3vap4bse7z64vm.ipfs.dweb.link/near.jpeg",
                 },
                 receiver_id: window.accountId,
               },
