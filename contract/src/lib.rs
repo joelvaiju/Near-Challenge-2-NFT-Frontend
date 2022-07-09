@@ -67,9 +67,9 @@ impl Contract {
         Self::new(
             owner_id,
             NFTContractMetadata {
-                spec: "nft-1.0.0".to_string(),
-                name: "NEAR Spring NFT".to_string(),
-                symbol: "NSNFT".to_string(),
+                spec: "nft-1".to_string(),
+                name: "NEAR SHOWCODE NFT".to_string(),
+                symbol: "NSCNFT".to_string(),
                 icon: None,
                 base_uri: None,
                 reference: None,
